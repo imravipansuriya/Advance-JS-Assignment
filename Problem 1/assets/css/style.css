@@ -1,0 +1,89 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+#calculator{
+    width: 380px;
+    padding: 10px;
+    margin: auto;
+    background-color: #1f3567;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#display{
+    display: grid;
+    border-radius: 5px;
+    height: 70px;
+    color: #000;
+}
+
+#display input{
+    display: block;
+    text-align: right;
+    padding: 8px 7px;
+    background: none;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+}
+input#history {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+#display output{
+    display: block;
+    text-align: right;
+    padding: 0px 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+#keypad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#keypad button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    background-color: #00000042;
+    color: #fff;
+}
+#keypad button:hover{
+    color: #1f3567;
+    background-color: #fff;
+}
+#keypad button.operator{ 
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e4693c;
+    color: #fff;
+}
+
+#keypad button.operator:hover{
+    background-color: #f9f9f9;
+    color: #e4693c;
+}
+#keypad button.back_space{
+    flex: 0 0 50%;
+    border-radius: 10px;
+}

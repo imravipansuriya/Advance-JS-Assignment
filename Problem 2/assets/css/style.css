@@ -1,0 +1,59 @@
+.card {
+    background-color: #ffab00;
+}
+div#results h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.card h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 31px;
+}
+span#tipOutput {
+    border: none;
+    border-radius: 100px;
+    width: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: #ffffff57;
+    color: #000;
+    font-weight: 600;
+}
+
+input#tipInput:focus {
+    box-shadow: none;
+}
+.form-group label {
+    font-size: 18px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+input#billTotal {
+    border: none;
+    background-color: #ffffff57;
+    color: #000;
+    font-weight: 600;
+}
+input#tipAmount {
+    border: none;
+    background-color: #ffffff57;
+    color: #000;
+    font-weight: 600;
+}
+input#totalBillWithTip {
+    border: none;
+    background-color: #ffffff57;
+    color: #000;
+    font-weight: 600;
+}
+.input-group-addon:not(:last-child) {
+    border-right: 0;
+    border: none;
+    background-color: #ffffff57;
+    color: #000;
+    font-weight: 600;
+    border-right: 1px solid #ffffff8c;
+}
